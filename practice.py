@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-randomNumbers =  np.random.uniform(1,10,1000)
-mynumbers = [1,2,3,1,2,3,1,2,3,1,2,3,4,4]
-plt.hist(mynumbers,3)
+x = [12,13,14,15,16,17,18,19,20,21]
+y = np.random.normal(110,200,10)
+
+plt.scatter(x,y)
 plt.show()
