@@ -1,8 +1,8 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
+ages = [9,9,9,9,11,12,13,14,15,11,12,13,14,10,9,11,12,13,14,12,11,13,14]
+percentile = 50
+value = np.percentile(ages, 50)
+print(f"The { percentile }% of data falls under the value: ",value)
 
-numbers = [2,3,4,1,2,3,4,5,6,1,7,6,1,8,5,7,3,7,3,7,8]
-
-stan_d = np.std(numbers)
-
-print("The standard deviation is found to be ", stan_d)
