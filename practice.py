@@ -1,8 +1,8 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
-x = [12,13,14,15,16,17,18,19,20,21]
-y = np.random.normal(110,200,10)
 
-plt.scatter(x,y)
-plt.show()
+numbers = [2,3,4,1,2,3,4,5,6,1,7,6,1,8,5,7,3,7,3,7,8]
+
+stan_d = np.std(numbers)
+
+print("The standard deviation is found to be ", stan_d)
